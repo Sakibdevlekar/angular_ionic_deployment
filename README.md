@@ -54,7 +54,7 @@
      sudo systemctl restart nginx
   ```
 
-  ## Check sites-enabled  and sites-available files data are the same. TO check sites-enabled
+  ## Check sites-enabled  and sites-available files data are the same. To check sites-enabled
   ```
   sudo nano  /etc/nginx/sites-enabled/default 
   ```
