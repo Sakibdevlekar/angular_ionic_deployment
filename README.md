@@ -1,4 +1,4 @@
-# angular_ionic_deployment
+# Angular_ionic_deployment
 
 
 ## 1. Setup your ec2 instance 
@@ -16,7 +16,9 @@
  
 
 ### Then click on **edit inbound rule**  and add some rules
-- Add same rule shown as in the image 
+- Add same rule shown as in the image
+
+
 ![image](https://github.com/Sakibdevlekar/angular_ionic_deployment/assets/111329075/0e49fadc-841d-471d-bf22-876aec7ba2a8)
 
 ## 4. Install NGINX and configure
