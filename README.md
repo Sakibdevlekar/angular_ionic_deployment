@@ -11,7 +11,7 @@
 ```
 
 ## 3. Copy the (www or your build folder) into this directory /var/www/html/  
-### - (Note: delete all files from html folder )
+### -  Note: delete all files from html folder 
     
 ``` 
     sudo cp -a /home/ubuntu/<your folder name>/www/*  /var/www/html/
