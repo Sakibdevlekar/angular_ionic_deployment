@@ -10,18 +10,24 @@
     sudo git clone <user repo link>
 ```
 
-## 3. Change the security setting for accessing your website 
+## 3. Copy the (www or your build folder) into this directory /var/www/html/  (Note: delete all files files from html folder )
+
+``` 
+    sudo cp -a /home/ubuntu/<your folder name>/www/*  /var/www/html/
+```
+
+## 4. Change the security setting for accessing your website 
  ![WhatsApp Image 2023-10-09 at 1 18 04 PM](https://github.com/Sakibdevlekar/nodeJs_Deployment_setup/assets/111329075/f8e0b642-3453-41a2-bb52-37b45017667c)
 
  
 
 ### Then click on **edit inbound rule**  and add some rules
-- Add same rule shown as in the image
+- Add same rule shown in the image
 
 
 ![image](https://github.com/Sakibdevlekar/angular_ionic_deployment/assets/111329075/0e49fadc-841d-471d-bf22-876aec7ba2a8)
 
-## 4. Install NGINX and configure
+## 5. Install NGINX and configure
   ```
      sudo apt install nginx
   ```
@@ -71,4 +77,4 @@
      sudo systemctl status nginx
   ```
 
-  ## 5. Now  copy past the public IP of your instance your site home page is visible now which means your app is hosted successfully ✨
+  ## 6. Now  copy past the public IP of your instance your site home page is visible now which means your app is hosted successfully ✨
